@@ -20,13 +20,11 @@ client.on('message',msg=>{
     const args = msg.content.slice(prefix.length).trim().split(/ +/)
     const commandName = args.shift()
     const command = client.commands.get(commandName)
-    msg.guild.roles.cache.each(r => console.log(`${r.name}`))
-    
     try{
         command.execute(msg,args);
     }
     catch(error){
-        msg.reply("오류가 발생했습니다");
+        msg.channel.send("오류가 발생했습니다");
         console.log(error)
     }
 })
