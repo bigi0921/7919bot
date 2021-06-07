@@ -1,5 +1,5 @@
 module.exports = {
-    name: "대학팀",
+    name: "팀명",
     execute(msg,args){
         let role = msg.guild.roles.cache.find(r => r.name === args[0]);
         msg.member.roles.add(role);
