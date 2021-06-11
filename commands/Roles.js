@@ -1,8 +1,13 @@
 const Discord = require('discord.js')
+const auth = require('../function/auth.js')
 
 module.exports = {
     name : "역할",
     execute(msg,args) {
+        if(!auth.admin(msg)) {
+            msg.channel.send("권한이 존재하지 않습니다.");
+            return;
+        }
         const category = msg.guild.channels.cache.find(c => c.id == "851389267623018536" && c.type == "category")
         args.forEach(element => {
             msg.guild.roles.create({
