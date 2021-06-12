@@ -1,0 +1,91 @@
+{
+	"texts" : [ 
+		{
+			"name" : "계정인증",
+			"value" : [
+				{
+					"name":"참가 조건",
+					"value" : "```- 대회에 참여하기위해서는 만 14세 이상, 1시즌 전 or 현 시즌 플레이 횟수 200회 이상(개인랭크), 한국 서버 본인명의(가족명의) 계정으로 참여해야 한다. ```"
+				},
+				{
+					"name":"인증 방법",
+					"value" : ":arrow_forward:라이엇 계정 인증 방법 안내 바로가기:https://discord.gg/D8GCryQy \n \n :arrow_forward:본인 인증 방법 안내 바로가기:https://discord.gg/yCH4nSGF"
+				}
+			]
+		},
+		{
+			"name" : "결과입력",
+			"value" : [
+				{
+					"name":"대회 결과 입력",
+					"value" : ":arrow_forward:대회 결과 입력 방법 안내 바로가기:https://discord.gg/4ZzMxZtM"
+				}
+			]
+
+		},
+		{
+			"name" : "밴픽",
+			"value" : [
+				{
+					"name":"밴픽안내",
+					"value" : ":arrow_forward:벤픽 방법 안내 바로가기:https://discord.gg/zWufK6yh"
+				}
+			]
+
+		},
+		{
+			"name" : "진영",
+			"value" : [
+				{
+					"name":"진영안내",
+					"value" : ":arrow_forward:진영선택 방법 안내 바로가기:https://discord.gg/kMzb3k56"
+				}
+			]
+		},
+		{
+			"name" : "일시정지",
+			"value" : [
+				{
+					"name":"일시정지",
+					"value" : ":arrow_forward:일시정지 방법 안내 바로가기:https://discord.gg/AkDWKuME"
+				}
+			]
+		},
+		{
+			"name" : "팀원변경",
+			"value" : [
+				{
+					"name":"일시정지",
+					"value" : ":arrow_forward:팀원변경 방법 안내 바로가기:https://discord.gg/GDAg2NP4"
+				}
+			]
+		},
+		{
+			"name" : "방설정",
+			"value" : [
+				{
+					"name":"방설정",
+					"value" : ":arrow_forward:방설정 방법 안내 바로가기:https://discord.gg/CpwsyKgz"
+				}
+			]
+		},
+		{
+			"name" : "연락두절",
+			"value" : [
+				{
+					"name":"연락두절",
+					"value" : ":arrow_forward:연락두절 방법 안내 바로가기:https://discord.gg/AECNuzAT"
+				}
+			]
+		},
+		{
+			"name" : "신청방법",
+			"value" : [
+				{
+					"name":"신청방법",
+					"value" : ":arrow_forward:신청방법 안내 바로가기:https://discord.gg/NtEDaZag"
+				}
+			]
+		}
+	]
+}
