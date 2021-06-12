@@ -1,5 +1,6 @@
+const discord = require('discord.js')
 const Textfiles = require('./Text/text.json');
-const prefix = require('../config.json')
+const {prefix} = require('../config.json')
 
 module.exports = {
 	execute(msg) {
@@ -9,11 +10,8 @@ module.exports = {
 				let embmsg = new discord.MessageEmbed()
 					.setColor('#87CEEB')
 					.setTitle('대회봇 안내')
-					.addFields(
-						{name:"a",value : "b"},
-					);
-				for(const value of text.value) {
-					embmsg.addFields({name : value.name, value : value.value})
+				for(const i of text.value) {
+					embmsg.addField(i.name,i.value)
 				}
 				msg.channel.send(embmsg);
 			}
