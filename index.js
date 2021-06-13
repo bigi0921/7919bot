@@ -2,15 +2,19 @@ const Discord = require('discord.js')
 const client = new Discord.Client()
 const {prefix, token} = require('./config.json')
 const fs = require('fs')
-const auth = require('./function/auth')
+const commandTextFiles = require('./commands/Text/text.json')
 
 client.commands = new Discord.Collection()
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'))
 
-
 for(const file of commandFiles){
     const command = require(`./commands/${file}`)
     client.commands.set(command.name,command)
+}
+
+for(const file of commandTextFiles.texts) {
+    const command = require(`./commands/TextCommands.js`);
+    client.commands.set(file.name,command);
 }
 
 client.on('ready', ()=>{
